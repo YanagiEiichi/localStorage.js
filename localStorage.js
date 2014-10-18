@@ -1,6 +1,6 @@
 ﻿/****************************************************************
   Author：次碳酸钴（admin@web-tinker.com）
-  Latest: 2014-10-05
+  Latest: 2014-10-19
   Git: https://github.com/YanagiEiichi/localStorage.js.git
   
   This interface is same as the standard localStorage, but
@@ -58,3 +58,4 @@ var localStorage=localStorage||new function(){
     element.save(prefix);
   };
 };
+if(window.define&&define.amd)define(localStorage);
